@@ -1,5 +1,3 @@
-import './top_nav.css'
-
 document.querySelector('#top-nav').innerHTML = `
 <nav class="navigation-bar">
     <ul>

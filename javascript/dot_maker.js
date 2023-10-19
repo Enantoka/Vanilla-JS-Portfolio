@@ -1,7 +1,3 @@
-import '../utilities/css/global_style.css'
-import '../utilities/css/global_variables.css'
-import '../css/dot_maker.css'
-
 const box = document.querySelector('.box');
 const dots = document.querySelector('#dots');
 const state = [];

@@ -1,6 +1,3 @@
-import './utilities/css/global_style.css'
-import './utilities/css/global_variables.css'
-import './main.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './utilities/javascript/counter.js'
