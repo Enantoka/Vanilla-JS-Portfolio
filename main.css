@@ -1,0 +1,17 @@
+.applications, .webpages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.application-item, .webpage-item {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+}

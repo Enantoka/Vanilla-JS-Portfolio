@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dot Maker</title>
+  </head>
+  <body>
+    <div id="top-nav"></div>
+    <main>
+      <h1>Dot Maker</h1>
+      <div class="content">
+        <div class="box"></div>
+        <div class="history">
+          <label for="dots">Position:</label>
+          <select name="dots" id="dots"></select>
+          <div class="button-options">
+            <button class="button-action remove-position" disabled="true">Remove</button>
+            <button class="button-action remove-recent" disabled="true">Last</button>
+            <button class="button-action undo" disabled="true">Undo</button>
+            <button class="button-action redo" disabled="true">Redo</button>
+          </div>
+        </div>
+      </div>
+      <h2>Instructions</h2>
+      <span>
+        Create dots by clicking anywhere in the box above. <br>
+        1. Selecting a number from the drop down and pressing "Remove" will remove a dot created in the order it was created. <br>
+        2. Pressing "Last" will remove the most recent dot created. <br>
+        3. Pressing "Undo" will undo any dots created or removed. <br>
+        4. Pressing "Redo" will revert any changes made by undo. <br>
+      </span>
+    </main>
+    <script type="module" src="../javascript/dot_maker.js"></script>
+    <script type="module" src="../components/nav/top_nav.js"></script>
+  </body>
+</html>

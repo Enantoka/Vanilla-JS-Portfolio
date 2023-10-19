@@ -1,0 +1,29 @@
+#top-nav {
+    width: 100%;
+}
+
+.navigation-bar ul {
+    display: flex;
+    background-color: var(--black);
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em;
+
+    & a:hover {
+        color: var(--dark-orange);
+    }
+
+    & a.active {
+        color: var(--green);
+    }
+}
+
+.navigation-item {
+    list-style: none;
+}
+
+.navigation-item a {
+    text-decoration: none;
+    padding: 0.5em;
+    color: var(--white);
+}
