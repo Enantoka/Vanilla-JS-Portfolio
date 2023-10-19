@@ -5,7 +5,7 @@ document.querySelector('#top-nav').innerHTML = `
             <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="navigation-item">
-            <a class="nav-link" href="https://enantoka.github.io/Vanilla-JS-Portfolio/pages/dot_maker.html">Dot Maker</a>
+            <a class="nav-link" href="pages/dot_maker.html">Dot Maker</a>
         </li>
         <li class="navigation-item">
             <a class="nav-link" href="https://enantoka.github.io/Practice-1/">Abstract</a>

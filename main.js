@@ -7,7 +7,7 @@ document.querySelector('#app').innerHTML = `
     <h1>Apps</h1>
     <div class="applications">
       <div class="application-item">
-      <a href="https://enantoka.github.io/Vanilla-JS-Portfolio/pages/dot_maker.html">Dot Maker</a>
+      <a href="pages/dot_maker.html">Dot Maker</a>
       </div>
       <div class="application-item">
         Placeholder
