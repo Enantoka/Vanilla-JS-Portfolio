@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,9 +12,9 @@
   </head>
   <body>
     <div id="top-nav"></div>
-    <main>
+    <main class="content">
       <h1>Dot Maker</h1>
-      <div class="content">
+      <div class="container">
         <div class="box"></div>
         <div class="history">
           <label for="dots">Position:</label>
@@ -27,14 +27,16 @@
           </div>
         </div>
       </div>
-      <h2>Instructions</h2>
-      <span>
-        Create dots by clicking anywhere in the box above. <br>
-        1. Selecting a number from the drop down and pressing "Remove" will remove a dot created in the order it was created. <br>
-        2. Pressing "Last" will remove the most recent dot created. <br>
-        3. Pressing "Undo" will undo any dots created or removed. <br>
-        4. Pressing "Redo" will revert any changes made by undo. <br>
-      </span>
+      <div class="info">
+        <h2>Instructions</h2>
+        <span>
+          Create dots by clicking anywhere in the box above. <br>
+          1. Selecting a number from the drop down and pressing "Remove" will remove a dot created in the order it was created. <br>
+          2. Pressing "Last" will remove the most recent dot created. <br>
+          3. Pressing "Undo" will undo any dots created or removed. <br>
+          4. Pressing "Redo" will revert any changes made by undo. <br>
+        </span>
+      </div>
     </main>
     <script type="module" src="../javascript/dot_maker.js"></script>
     <script type="module" src="../components/nav/top_nav.js"></script>

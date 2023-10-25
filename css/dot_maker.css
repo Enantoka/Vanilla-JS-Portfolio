@@ -1,14 +1,17 @@
 .content {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    margin: 1em;
+
 }
 
 .box {
     position: relative;
-    min-width: 320px;
-    min-height: 320px;
+    min-width: 300px;
+    min-height: 300px;
     border: 1px solid var(--black);
-    margin: 1em;
+    margin-bottom: 1em;
 }
 
 .dot {
@@ -41,3 +44,17 @@
     }
 }
 
+.info h2{
+    text-align: center;
+}
+
+@media screen and (min-width: 769px) {
+    .container {
+        display: flex;
+    }
+
+    .history {
+        align-self: center;
+        margin-left: 1em;
+    }
+}
